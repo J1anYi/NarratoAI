@@ -18,9 +18,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="auto",
     menu_items={
-        "Report a bug": "https://github.com/linyqh/NarratoAI/issues",
+        "Report a bug": "https://github.com/J1anYi/NarratoAI/issues",
         'About': f"# Narrato:blue[AI] :sunglasses: 📽️ \n #### Version: v{config.project_version} \n "
-                 f"自动化影视解说视频详情请移步：https://github.com/linyqh/NarratoAI"
+                 f"项目详情请移步：https://github.com/J1anYi/NarratoAI"
     },
 )
 
@@ -239,7 +239,7 @@ def main():
     except Exception as e:
         logger.warning(f"资源初始化时出现警告: {e}")
 
-    st.title(f"Narrato:blue[AI]:sunglasses: 📽️")
+    st.title(f"Jianyi:blue[AI]:sunglasses: 📽️")
     st.write(tr("Get Help"))
 
     # 首先渲染不依赖PyTorch的UI部分
